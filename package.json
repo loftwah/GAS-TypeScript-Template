@@ -11,6 +11,7 @@
   "license": "ISC",
   "private": true,
   "devDependencies": {
+    "@types/google-apps-script": "^1.0.10",
     "gas-webpack-plugin": "^1.0.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
