@@ -6,6 +6,14 @@ module.exports = {
   output: {
     path: __dirname + '/dist',
     filename: 'Code.gs'
+	},
+	module: {
+    rules: [
+      {
+        test: /\.ts$/,
+        use: 'ts-loader'
+      }
+    ]
   },
   plugins: [
     new GasPlugin()

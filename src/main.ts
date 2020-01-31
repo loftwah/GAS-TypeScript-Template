@@ -1,3 +1,5 @@
-global.hello = function () {
+declare let global: any;
+
+global.hello = () => {
 	Logger.log("Hello world.");
 }
